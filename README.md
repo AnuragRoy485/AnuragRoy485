@@ -4,7 +4,7 @@ Hi 👋 My name is Anurag Roy
 Web Developer & Love To Code...
 -------------------------------
 
-I've been learning to Code Since last 3years....I have Coded Many Web apps as well and made many HTML,CSS & JS Projects Too...I also have a Programming Blog as well!
+I've been learning to Code Since last 3 years....I have Coded Many Web apps as well and made many HTML,CSS & JS Projects Too...I also have a Programming Blog as well!
 
 * 🌍  I'm based in India
 * 🖥️  See my portfolio at [My Programming Blog](http://anurag485.blogspot.com/)
