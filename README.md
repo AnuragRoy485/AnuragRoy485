@@ -41,6 +41,7 @@ I've been learning to Code Since last 3 years....I have Coded Many Web apps as w
 <p align="left"> <a href="https://discord.com/users/495859534074740736" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.github.com/AnuragRoy485" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="http://www.instagram.com/itsmeanuragroy" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/AnuragRoy485" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
 
 ### Badges
+[![@anuragroy485's Holopin board](https://holopin.me/anuragroy485)](https://holopin.io/@anuragroy485)
 
 <b>My GitHub Stats</b>
 
