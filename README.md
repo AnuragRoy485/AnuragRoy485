@@ -7,9 +7,9 @@ Web Developer & Love To Code...
 I've been learning to Code Since last 3 years....I have Coded Many Web apps as well and made many HTML,CSS & JS Projects Too...I also have a Programming Blog as well!
 
 * 🌍  I'm based in India
-* 🖥️  See my portfolio at [My Programming Blog](http://anurag485.blogspot.com/)
+* 🖥️  See my portfolio at [Portfolio]((https://anuragroy.tech/))
 * ✉️  You can contact me at [anuragroy485@gmail.com](mailto:anuragroy485@gmail.com)
-* 🚀  I'm currently working on [Live Chess](http://livechess.anuragroy.ml/)
+* 🚀  I'm currently working on [INFORMER TOOL]((https://informertool.in/))
 * 🧠  I'm learning SQL,C++ And Some More Too.
 * 🤝  I'm open to collaborating on Any Projects On Java,CSS,HTML,Python,Javascript
 
