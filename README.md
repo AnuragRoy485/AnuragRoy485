@@ -1,52 +1,99 @@
-Hey 👋 My name is Anurag Roy
-===========================
+<!-- Profile README: Anurag Roy -->
 
-Web Developer & Love To Code...
--------------------------------
+<h1 align="center">👋 Hey there, I'm <span style="color:#00bfff;">Anurag Roy</span></h1>
 
-I've been learning to Code Since last 3 years....I have Coded Many Web apps as well and made many HTML,CSS & JS Projects Too...I also have a Programming Blog as well!
+<h3 align="center">💻 Web Developer | Cybersecurity Enthusiast | Builder of INFORMER Tool</h3>
 
-* 🌍  I'm based in India
-* 🖥️  See my portfolio at [Portfolio](([https://anuragroy.tech/]))
-* ✉️  You can contact me at [anuragroy485@gmail.com](mailto:anuragroy485@gmail.com)
-* 🚀  I'm currently working on [INFORMER TOOL]((https://informertool.in/))
-* 🧠  I'm learning SQL,C++ And Some More Too.
-* 🤝  I'm open to collaborating on Any Projects On Java,CSS,HTML,Python,Javascript
-
-### Skills
-
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="Javascript" /></a>
-<a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/python-colored.svg" width="36" height="36" alt="Python" /></a>
-<a href="https://www.oracle.com/java/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/java-colored.svg" width="36" height="36" alt="Java" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg" width="36" height="36" alt="React" /></a>
-<a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored-dark.svg" width="36" height="36" alt="NextJs" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
-<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/tailwindcss-colored.svg" width="36" height="36" alt="TailwindCSS" /></a>
-<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
-<a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a>
-<a href="https://www.heroku.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/heroku-colored.svg" width="36" height="36" alt="Heroku" /></a>
-<a href="https://www.oracle.com/uk/index.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/oracle-colored.svg" width="36" height="36" alt="Oracle" /></a>
-<a href="https://docs.nestjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nestjs-colored.svg" width="36" height="36" alt="NestJS" /></a>
-<a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/django-colored-dark.svg" width="36" height="36" alt="Django" /></a>
-<a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored-dark.svg" width="36" height="36" alt="Photoshop" /></a>
-<a href="https://www.adobe.com/uk/products/aftereffects.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/aftereffects-colored-dark.svg" width="36" height="36" alt="After Effects" /></a>
-<a href="https://web3js.readthedocs.io/en/v1.7.1/#" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/web3js-colored.svg" width="36" height="36" alt="Web3Js" /></a>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Web+Developer+and+Programmer;Cybersecurity+and+Digital+Forensics;Building+Swadeshi+Tools+for+LEAs;Loves+to+Code+and+Innovate!">
 </p>
 
+---
 
-### Socials
+### 🧑‍💻 About Me
 
-<p align="left"> <a href="https://discord.com/users/495859534074740736" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.github.com/AnuragRoy485" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github-dark.svg" width="32" height="32" /></a> <a href="http://www.instagram.com/itsmeanuragroy" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.twitter.com/AnuragRoy485" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a></p>
+🚀 Passionate about technology, I love crafting impactful web applications and digital tools for the real world.  
+I’ve been coding for **3+ years**, building everything from **responsive web apps** to **cyber intelligence platforms** like [**INFORMER TOOL**](https://informertool.in/).  
+Currently exploring **SQL, C++, backend integrations, and OSINT automation**.
 
-### Badges
+* 🌍  Based in **India**  
+* 🖥️  Portfolio — [anuragroy.tech](https://anuragroy.tech)  
+* ✉️  Reach me — [anuragroy485@gmail.com](mailto:anuragroy485@gmail.com)  
+* 🔭  Working on — [**INFORMER TOOL**](https://informertool.in/) *(Swadeshi Cyber Intelligence Platform)*  
+* 🧠  Currently Learning — **SQL, C++, Advanced JS, and OSINT Analysis**  
+* 🤝  Open for collaborations in **HTML, CSS, JS, Python, and Java Projects**
+
+---
+
+### ⚡ Tech Stack & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,react,nextjs,nodejs,tailwind,bootstrap,nestjs,django,heroku,oracle,photoshop,ae,web3" />
+</p>
+
+---
+
+### 🏆 Featured Project — INFORMER TOOL
+
+> **INFORMER** is an indigenous Indian cyber intelligence tool designed for **Law Enforcement Agencies (LEAs)**.  
+> It enables **OSINT-based lookup and correlation** for **Mobile, Vehicle, Aadhaar, and UPI intelligence**, empowering digital forensics and investigations in India.
+
+🔗 [Visit INFORMER TOOL →](https://informertool.in/)  
+🛡️ *“Swadeshi Intelligence for a Cyber-Safe Bharat”*
+
+---
+
+### 🌐 Connect with Me
+
+<p align="center">
+  <a href="https://discord.com/users/495859534074740736" target="_blank"><img src="https://skillicons.dev/icons?i=discord" height="40"/></a>
+  <a href="https://github.com/AnuragRoy485" target="_blank"><img src="https://skillicons.dev/icons?i=github" height="40"/></a>
+  <a href="https://www.instagram.com/itsmeanuragroy" target="_blank"><img src="https://skillicons.dev/icons?i=instagram" height="40"/></a>
+  <a href="https://x.com/AnuragRoy485" target="_blank"><img src="https://skillicons.dev/icons?i=twitter" height="40"/></a>
+</p>
+
+---
+
+### 🏅 Badges & Achievements
+
 [![@anuragroy485's Holopin board](https://holopin.me/anuragroy485)](https://holopin.io/@anuragroy485)
 
-<b>My GitHub Stats</b>
+---
 
-<a href="http://www.github.com/AnuragRoy485"><img src="https://github-readme-stats.vercel.app/api?username=AnuragRoy485&show_icons=true&hide=&count_private=true&title_color=3382ed&text_color=ffffff&icon_color=3382ed&bg_color=1c1917&hide_border=true&show_icons=true" alt="AnuragRoy485's GitHub stats" /></a>
+### 📊 GitHub Stats
 
-<a href="http://www.github.com/AnuragRoy485"><img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragRoy485&stroke=ffffff&background=1c1917&ring=3382ed&fire=3382ed&currStreakNum=ffffff&currStreakLabel=3382ed&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AnuragRoy485&show_icons=true&theme=radical" height="180em" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragRoy485&theme=radical" height="180em" />
+</p>
 
-<a href="http://www.github.com/AnuragRoy485"><img src="https://activity-graph.herokuapp.com/graph?username=AnuragRoy485&bg_color=1c1917&color=ffffff&line=3382ed&point=ffffff&area_color=1c1917&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnuragRoy485&theme=react-dark&hide_border=true&area=true" />
+</p>
+
+---
+
+### 🚀 Tech Domains I Love
+
+💡 **Web Development** — Frontend & Backend  
+🧠 **Cybersecurity & OSINT Research**  
+🔍 **Digital Forensics & Threat Analysis**  
+📊 **Data Visualization & API Integration**  
+🧩 **Automation & Tool Development**
+
+---
+
+### 💬 Quote I Live By
+
+> *"Code not just to create — but to contribute, secure, and empower."*  
+> — **Anurag Roy**
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AnuragRoy485&style=for-the-badge&color=blueviolet" alt="Profile Views" />
+</p>
+
+---
+
+<h3 align="center">🔥 On a Mission to Build a Cyber-Safe Bharat 🇮🇳</h3>
