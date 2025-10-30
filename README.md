@@ -20,7 +20,7 @@ Currently exploring **SQL, C++, backend integrations, and OSINT automation**.
 * 🖥️  Portfolio — [anuragroy.tech](https://anuragroy.tech)  
 * ✉️  Reach me — [anuragroy485@gmail.com](mailto:anuragroy485@gmail.com)  
 * 🔭  Working on — [**INFORMER TOOL**](https://informertool.in/) *(Swadeshi Cyber Intelligence Platform)*  
-* 🧠  Currently Learning — **SQL, C++, Advanced JS.**  
+* 🧠  Currently Learning — **SQL, C++, Advanced JS, and OSINT Analysis**  
 * 🤝  Open for collaborations in **HTML, CSS, JS, Python, and Java Projects**
 
 ---
@@ -67,23 +67,9 @@ Currently exploring **SQL, C++, backend integrations, and OSINT automation**.
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AnuragRoy485&theme=radical" height="180em" />
 </p>
 
----
-
-### 🟩 My Contribution Grid
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=AnuragRoy485&show_icons=false&include_all_commits=true&count_private=true&disable_animations=true&custom_title=Contributions&theme=github_dark&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AnuragRoy485&theme=react-dark&hide_border=true&area=true" />
 </p>
-
----
-
-### 🐍 Contribution Snake Animation
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AnuragRoy485/AnuragRoy485/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
-</p>
-
-*(This snake automatically updates to show your recent commits eating your contribution graph — looks awesome on profile view!)*
 
 ---
 
