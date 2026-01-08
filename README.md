@@ -2,7 +2,7 @@
 
 <h1 align="center">👋 Hey there, I'm <span style="color:#00bfff;">Anurag Roy</span></h1>
 
-<h3 align="center">💻 Web Developer | Cybersecurity Enthusiast | Builder of INFORMER Tool</h3>
+<h3 align="center">💻 Web Developer | Cybersecurity Enthusiast | Founder of INFORMER Tool</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00BFFF&center=true&vCenter=true&width=600&lines=Web+Developer+and+Programmer;Cybersecurity+and+Digital+Forensics;Building+Swadeshi+Tools+for+LEAs;Loves+to+Code+and+Innovate!">
