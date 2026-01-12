@@ -96,4 +96,4 @@ Currently exploring **SQL, C++, backend integrations, and OSINT automation**.
 
 ---
 
-<h3 align="center">🔥 On a Mission to Build a Cyber-Safe Bharat 🇮🇳</h3>
+<h3 align="center">🔥 On a Mission to Build a Cyber-Safe Bharat 🇮🇳 | Jai Hind! </h3>
