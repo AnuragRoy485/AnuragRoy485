@@ -227,25 +227,3 @@ links:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,100:0a0a0f&height=100&section=footer&text=On+a+Mission+to+Build+a+Cyber-Safe+Bharat&fontSize=14&fontColor=00d4ff&fontAlignY=65" width="100%" />
 
 </div>
-
-Last Updated: Wed Jun 10 16:54:03 UTC 2026
-
-Last Updated: Thu Jun 11 02:46:13 UTC 2026
-
-Last Updated: Fri Jun 12 02:42:36 UTC 2026
-
-Last Updated: Sat Jun 13 02:35:08 UTC 2026
-
-Last Updated: Sun Jun 14 02:46:55 UTC 2026
-
-Last Updated: Mon Jun 15 02:51:20 UTC 2026
-
-Last Updated: Tue Jun 16 02:52:49 UTC 2026
-
-Last Updated: Wed Jun 17 02:49:37 UTC 2026
-
-Last Updated: Thu Jun 18 02:45:06 UTC 2026
-
-Last Updated: Fri Jun 19 03:29:39 UTC 2026
-
-Last Updated: Sat Jun 20 02:34:29 UTC 2026
