@@ -1,0 +1,109 @@
+name: Update Activity Graph
+on:
+  schedule:
+    - cron: '17 1 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/activity-graph.yml'
+permissions:
+  contents: write
+concurrency:
+  group: profile-activity-graph
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate graph from public GitHub contribution data
+        run: |
+          python3 - <<'PYTHON'
+          """Render public GitHub contributions without an external chart service."""
+          from datetime import date, timedelta
+          from html import escape
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          import re
+          
+          USER = 'AnuragRoy485'
+          
+          class Calendar(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.days = {}
+                  self.counts = {}
+                  self.tooltip = None
+              def handle_starttag(self, tag, attrs):
+                  a = dict(attrs)
+                  if a.get('data-date') and a.get('id'):
+                      self.days[a['id']] = a['data-date']
+                  if tag == 'tool-tip' and a.get('for'):
+                      self.tooltip = a['for']
+              def handle_data(self, data):
+                  if self.tooltip:
+                      m = re.match(r'\s*(No|[\d,]+) contributions? on ', data)
+                      if m:
+                          self.counts[self.tooltip] = 0 if m[1] == 'No' else int(m[1].replace(',', ''))
+              def handle_endtag(self, tag):
+                  if tag == 'tool-tip':
+                      self.tooltip = None
+          
+          def build(output='assets/github-activity-graph.svg'):
+              url = f'https://github.com/users/{USER}/contributions'
+              with urlopen(Request(url, headers={'User-Agent': 'GitHub-Profile-Activity-Graph'}), timeout=30) as response:
+                  text = response.read().decode('utf-8')
+              parser = Calendar()
+              parser.feed(text)
+              values = {date.fromisoformat(parser.days[k]): v for k, v in parser.counts.items() if k in parser.days}
+              if len(values) < 31:
+                  raise ValueError('GitHub did not return a complete contribution calendar; keeping the previous graph.')
+              end = max(values)
+              if end < date.today() - timedelta(days=2):
+                  raise ValueError('GitHub returned a stale contribution calendar.')
+              dates = [end - timedelta(days=30-i) for i in range(31)]
+              counts = [values[d] for d in dates]  # Missing dates must fail, never silently become zero.
+              ceiling = max(5, ((max(counts) + 4) // 5) * 5)
+              x = lambda i: 65 + i * 29
+              y = lambda n: 235 - n / ceiling * 155
+              points = ' '.join(f'{x(i)},{y(n):.2f}' for i,n in enumerate(counts))
+              period = f'{dates[0]:%d %b} - {end:%d %b %Y}'
+              svg = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="320" viewBox="0 0 1000 320" role="img" aria-labelledby="title desc">',
+                     f'<title id="title">Anurag\'s GitHub Activity Graph</title>',
+                     f'<desc id="desc">Daily public-profile contributions, {period}. Total: {sum(counts)}. Source: github.com/{USER}.</desc>',
+                     '<rect width="1000" height="320" rx="12" fill="#141321"/>',
+                     '<g font-family="Segoe UI,Arial,sans-serif" fill="#a9fef7">',
+                     '<text x="500" y="32" text-anchor="middle" font-size="21" font-weight="600">Anurag\'s GitHub Activity Graph</text>',
+                     f'<text x="500" y="54" text-anchor="middle" font-size="12">{period} · {sum(counts)} contributions</text>']
+              for tick in range(6):
+                  n = ceiling * tick / 5
+                  yy = y(n)
+                  svg += [f'<line x1="65" y1="{yy}" x2="935" y2="{yy}" stroke="#39364d" stroke-width="1"/>',
+                          f'<text x="53" y="{yy+4}" text-anchor="end" font-size="11">{n:g}</text>']
+              svg += [f'<polygon points="65,235 {points} 935,235" fill="#fe428e" opacity="0.12"/>',
+                      f'<polyline points="{points}" fill="none" stroke="#fe428e" stroke-width="3" stroke-linejoin="round"/>']
+              for i,(d,n) in enumerate(zip(dates,counts)):
+                  svg += [f'<circle cx="{x(i)}" cy="{y(n):.2f}" r="3.5" fill="#f8d847"><title>{d.isoformat()}: {n} contributions</title></circle>']
+                  if i % 5 == 0:
+                      svg += [f'<text x="{x(i)}" y="260" text-anchor="middle" font-size="11">{d:%d %b}</text>']
+              svg += [f'<text x="500" y="294" text-anchor="middle" font-size="11">Daily contributions · github.com/{USER}</text>', '</g></svg>']
+              path = Path(output)
+              path.parent.mkdir(parents=True,exist_ok=True)
+              path.write_text('\n'.join(svg)+'\n',encoding='utf-8')
+              print(f'Rendered {len(counts)} days through {end}: {sum(counts)} contributions')
+          
+          if __name__ == '__main__':
+              build()
+          PYTHON
+      - name: Save updated graph
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/github-activity-graph.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update profile activity graph'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
